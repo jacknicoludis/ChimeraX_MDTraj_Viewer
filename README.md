@@ -1,3 +1,8 @@
+Jack Nicoludis
+
+Update to Molecular Dynamic Viewer for support with .h5 files via mdtraj.
+Original readme:
+
 Kyle Diller
 
 The molecular dynamics viewer is a tool for viewing multiframe pdb
