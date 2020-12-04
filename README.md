@@ -1,6 +1,16 @@
 Jack Nicoludis
 
-Update to Molecular Dynamic Viewer for support with .h5 files via mdtraj.
+Update to Molecular Dynamic Viewer to support loading trajectory files with mdtraj.
+
+Installing:
+    cd ChimeraX_MDTraj_Viewer
+    make install
+
+Running:
+    Open ChimeraX
+    The tool is under Tools > General > MDTraj Viewer
+
+
 Original readme:
 
 Kyle Diller
