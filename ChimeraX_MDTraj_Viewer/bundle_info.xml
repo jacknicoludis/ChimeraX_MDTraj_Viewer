@@ -5,20 +5,20 @@ When uploaded to the ChimeraX toolshed, the bundle
 will be displayed without the ChimeraX- prefix.
 -->
 
-<BundleInfo name="MolecularDynamicsViewer"
-        version="1.2" package="com.kdiller.dynamics.viewer"
+<BundleInfo name="MDTrajViewer"
+        version="1.0" package="chimerax.mdtrajviewerv"
         minSessionVersion="1" maxSessionVersion="1">
 
   <!-- Additional information about bundle source -->
-  <Author>Kyle Diller</Author>
-  <Email>kdiller99@gmail.com</Email>
-  <URL>https://www.rit.edu/</URL>
+  <Author>Jack Nicoludis</Author>
+  <Email>jacknicoludis@gmail.com</Email>
+  <URL>www.invitae.com</URL>
 
   <!-- Synopsis is a one-line description
        Description is a full multi-line description -->
-  <Synopsis>A UI tool for loading and viewing a multiframe pdb file</Synopsis>
+  <Synopsis>A UI tool for loading and viewing trajectories using mdtraj to load</Synopsis>
   <Description>
-      Loads a multiframe pdb file for people to view.
+      Loads trajectory files for people to view.
       Generally used for loading molecular dynamics simulations to be viewed within ChimeraX.
   </Description>
 
@@ -32,6 +32,7 @@ will be displayed without the ChimeraX- prefix.
   <!-- Dependencies on other ChimeraX/Python packages -->
   <Dependencies>
     <Dependency name="ChimeraX-Core" version=">=0.1"/>
+    <Dependency name="mdtraj"/>
   </Dependencies>
 
   <!-- Python and ChimeraX-specific classifiers
@@ -58,7 +59,8 @@ will be displayed without the ChimeraX- prefix.
     
     <!-- This creates the tool for use in ChimeraX -->
     <!-- ChimeraX :: Tool :: <Name> :: General :: <Description> -->
-    <ChimeraXClassifier>ChimeraX :: Tool :: Molecular Dynamics Viewer :: General :: Shows a UI to display Molecular Dynamics </ChimeraXClassifier>
+    <ChimeraXClassifier>ChimeraX :: Tool :: MDTraj Viewer :: General :: Shows a UI to display Molecular
+      Dynamics </ChimeraXClassifier>
   </Classifiers>
 
 </BundleInfo>

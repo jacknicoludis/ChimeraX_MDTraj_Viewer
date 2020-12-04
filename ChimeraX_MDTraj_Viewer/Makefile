@@ -25,7 +25,7 @@ CHIMERAX_APP ?= "c:/Program Files/ChimeraX.app"
 endif
 ifeq ($(OS),Darwin)
 # Mac
-CHIMERAX_APP ?= /Applications/ChimeraX.app
+CHIMERAX_APP ?= /Applications/ChimeraX-1.1.1.app
 endif
 
 # Platform-dependent settings.  Should not need fixing.
